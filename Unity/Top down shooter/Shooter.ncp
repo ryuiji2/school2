@@ -1,0 +1,49 @@
+<Project>
+  <Name>Shooter</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Untitled</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Guns</Name>
+        <Access>Public</Access>
+        <Location left="556" top="57" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int clip</Member>
+        <Member type="Field">int ammo</Member>
+        <Member type="Field">int fireRate</Member>
+        <Member type="Field">int reloadTime</Member>
+        <Member type="Field">GameObject bullet</Member>
+        <Member type="Method">public void Shooting()</Member>
+        <Member type="Method">public void Reload()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Pistol</Name>
+        <Access>Public</Access>
+        <Location left="321" top="303" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Rifle</Name>
+        <Access>Public</Access>
+        <Location left="556" top="303" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Shotgun</Name>
+        <Access>Public</Access>
+        <Location left="801" top="303" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

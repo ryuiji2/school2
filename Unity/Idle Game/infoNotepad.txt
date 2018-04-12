@@ -1,0 +1,5 @@
+Je hebt een list.
+In die list geef je aan hoeveel upgrades je wilt hebben.
+Je instantiate de hoeveelheid buttons dat gelijk staat aan je list lengte.
+Op de buttonklik geef je aan welke list index je moet aanroepen.
+list index geeft de informatie door wat de upgrade inhoud.
